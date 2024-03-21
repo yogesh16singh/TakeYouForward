@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.username {
+  display: flex;
+  gap: 2vh;
+}
+
+.fields-container input {
+  width: 30vh;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+  padding: 1vh;
+}
+
+.fields-container select {
+  border: none;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 5px;
+}
+
+.fields-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60vw;
+  gap: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+}
+
+.fields-container button {
+  border: none;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: rgb(44, 156, 44);
+  cursor: pointer;
+}
+
+.fields-container button:nth-child(3) {
+  background-color: rgb(215, 49, 49);
+}
+
+.text-container {
+  margin: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+  gap: 2vh;
+}
+
+.text-container textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 1vh;
+}
+
+.input-output {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  /* gap: 2vh; */
+}
+
+.input-output div:nth-child(2) {
+  margin-top: 2vh;
+}
+
+.source-code {
+  display: flex;
+  flex-direction: column;
+}
